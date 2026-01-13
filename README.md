@@ -6,7 +6,13 @@ The main goal of this project is to apply **Secure Software Development (SSD)** 
 
 Sensitive information such as secret keys and database credentials is handled securely using environment variables instead of being hardcoded in the source code.
 
----
+<div id="user-content-toc">
+  <ul style="list-style: none;">
+    <summary>
+      <h1>MAKE SURE TO INSTALL PYTHON AND DJANGO BEFORE PROCEED</h1>
+    </summary>
+  </ul>
+</div>
 
 ## 2. Installation Steps
 
@@ -47,14 +53,6 @@ python manage.py migrate
 
 ## 4. How to Run the App
 
-<div id="user-content-toc">
-  <ul style="list-style: none;">
-    <summary>
-      <h1>MAKE SURE TO INSTALL PYTHON AND DJANGO BEFORE PROCEED</h1>
-    </summary>
-  </ul>
-</div>
-
 1. Open the Project Folder
    Ensure you are inside the folder that contains the manage.py file.\
    Example path: C:\Users\user\Desktop\django-secure-ecommerce-SSD
@@ -87,4 +85,12 @@ python manage.py migrate
 - Shopping cart page
 - Admin dashboard
 - README.md file on GitHub
+
+<img width="1905" height="945" alt="Homepage" src="https://github.com/user-attachments/assets/eb9c057d-f7c6-48b0-988d-da5abc2afa46" />
+<img width="1916" height="951" alt="search" src="https://github.com/user-attachments/assets/fee55677-b8fc-43f3-9275-a771bf0fe6f4" />
+<img width="1918" height="950" alt="Screenshot 2026-01-13 213133" src="https://github.com/user-attachments/assets/072f3248-8c5c-42d7-b42d-c5bb7b4cef19" />
+<img width="1919" height="952" alt="Screenshot 2026-01-13 213147" src="https://github.com/user-attachments/assets/508ae038-e41d-4bc5-818e-37723fa93249" />
+<img width="1907" height="946" alt="Screenshot 2026-01-13 213228" src="https://github.com/user-attachments/assets/21feb767-b4d1-4465-9995-27be470e5f9f" />
+<img width="1914" height="951" alt="Screenshot 2026-01-13 213248" src="https://github.com/user-attachments/assets/90364538-a7df-475e-acef-fc47edace8e4" />
+<img width="1903" height="950" alt="Screenshot 2026-01-13 213306" src="https://github.com/user-attachments/assets/a375ee40-8df1-4d4e-8cfc-015faeecfe38" />
 
