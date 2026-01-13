@@ -47,18 +47,44 @@ python manage.py migrate
 
 ## 4. How to Run the App
 
-1. Start the Django development server:
-```bash
-python manage.py runserver
-```
-2. Open your browser and access the application at:
-```cpp
-http://127.0.0.1:8000/
-```
+<div id="user-content-toc">
+  <ul style="list-style: none;">
+    <summary>
+      <h1>MAKE SURE TO INSTALL PYTHON AND DJANGO BEFORE PROCEED</h1>
+    </summary>
+  </ul>
+</div>
 
+1. Open the Project Folder
+   Ensure you are inside the folder that contains the manage.py file.\
+   Example path: C:\Users\user\Desktop\django-secure-ecommerce-SSD
+
+2. Open the Terminal in the Project Folder
+   The easiest ways:\
+   - In VS Code: Press Ctrl + ` (backtick). The terminal will open automatically in the project directory.
+   - Alternatively: Right-click the folder in File Explorer → Select Open in Terminal.
+
+3. Activate the Virtual Environment (REQUIRED)
+   In the terminal, type:\
+   ```bash
+   venv\Scripts\activate
+   ```
+   If successful, you will see (venv) appear at the beginning of the command line.\
+📌 Note: If you aren't sure of your virtual environment's name, type dir to list the folders and look for the environment folder (usually named venv or .venv).
+
+4. Run the Django Server
+   ```bash
+   python manage.py runserver
+   ```
+   Once it starts, you should see: Starting development server at http://127.0.0.1:8000/
+
+5. Open Your Browser
+   - Main Site: http://127.0.0.1:8000/
+   - Login Page: http://127.0.0.1:8000/login
 ## 5. Dependencies
 - Login page
 - Product listing page
 - Shopping cart page
 - Admin dashboard
 - README.md file on GitHub
+
